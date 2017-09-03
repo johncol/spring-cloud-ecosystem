@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>spring.samples</groupId>
-	<artifactId>query-api</artifactId>
+	<artifactId>eureka-proxy</artifactId>
 	<packaging>jar</packaging>
 
-	<name>query-api</name>
+	<name>eureka-proxy</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -25,32 +25,17 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>spring.samples</groupId>
-			<artifactId>commons</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-
-		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-oauth2</artifactId>
+			<artifactId>spring-cloud-starter-eureka-server</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-security</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-eureka</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-eureka-server</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
