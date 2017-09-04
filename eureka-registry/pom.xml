@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>spring.samples</groupId>
-	<artifactId>eureka-proxy</artifactId>
+	<artifactId>eureka-registry</artifactId>
 	<packaging>jar</packaging>
 
-	<name>eureka-proxy</name>
+	<name>eureka-registry</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

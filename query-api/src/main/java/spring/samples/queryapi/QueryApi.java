@@ -8,9 +8,9 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 @EnableDiscoveryClient
 @EnableResourceServer
 @SpringBootApplication
-public class QueryApiApplication {
+public class QueryApi {
 
 	public static void main(String[] args) {
-		SpringApplication.run(QueryApiApplication.class, args);
+		SpringApplication.run(QueryApi.class, args);
 	}
 }
